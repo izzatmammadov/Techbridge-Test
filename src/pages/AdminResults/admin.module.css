@@ -1,0 +1,107 @@
+.login_container {
+    background: linear-gradient(to right, #c04848, #480048);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.login_container h1 {
+    font-weight: lighter;
+    font-size: 62px;
+}
+
+.login_form {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+.login_form label {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.login_form input{
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    padding: 2px 0px;
+}
+
+.login_btn {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    padding: 4px 12px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    transition: all 0.3s;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-left: 26px;
+  }
+  
+  .login_btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .show_password_btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /** Result Section **/
+
+  .result_container {
+    background: linear-gradient(to right, #c04848, #480048);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .result_container h1 {
+        font-weight: lighter;
+        font-size: 62px;
+  }
+
+
+  .result_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+  }
+
+  .result_list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .result_list strong{
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  
+  .result_list li {
+    list-style: none;
+  }
